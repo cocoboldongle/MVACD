@@ -1,6 +1,6 @@
-# Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection
+# MVACD: Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection
 
-The dataset used in the paper: *"Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection"* (ACL 2026 Main)
+The dataset used in the paper: *"Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection"* (ACL 2025 Main)
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202509.17292-red.svg)](https://arxiv.org/abs/2509.17292)
 [![KoACD](https://img.shields.io/badge/🤗%20KoACD-HuggingFace-blue.svg)](https://huggingface.co/datasets/kma80kjs1/KoACD)
@@ -24,12 +24,7 @@ Each utterance is decomposed into **Emotion, Logic, and Behavior (ELB)** compone
 - **Full dataset:** 🤗 [HuggingFace](https://huggingface.co/datasets/kma80kjs1/KoACD)
 - **Subset used in this paper:** 5,000 utterances (500 per distortion type), expert-validated by 10 Korean psychologists
 
-| Split | Utterances |
-|-------|-----------|
-| Train | 3,608 (80%) |
-| Validation | 451 (10%) |
-| Test | 451 (10%) |
-| **Total** | **4,510** (after removing disagreements) |
+> ⚠️ **Note:** There is no fixed train/validation/test split. Each experimental run uses a different random seed for stratified splitting (80/10/10).
 
 | Cognitive Distortion Type | Count (%) |
 |---------------------------|-----------|
@@ -48,9 +43,10 @@ Each utterance is decomposed into **Emotion, Logic, and Behavior (ELB)** compone
 ### Therapist QA Dataset
 
 - **Source:** [Shreevastava and Foltz, 2021](https://aclanthology.org/2021.clpsych-1.17/)
-- **Download:** [Kaggle — Detecting Cognitive Distortions](https://www.kaggle.com/datasets/alvations/therapist-qa)
-- **Description:** Expert-annotated English utterances from asynchronous patient–therapist logs
+- **Processed data (ELB + LLM instances):** Available upon request
 - **Usage:** Primary label per utterance; used for cross-linguistic generalization benchmarking
+
+> ⚠️ **Note:** There is no fixed train/validation/test split. Each experimental run uses a different random seed for stratified splitting (80/10/10).
 
 | Split | Utterances |
 |-------|-----------|
@@ -60,7 +56,6 @@ Each utterance is decomposed into **Emotion, Logic, and Behavior (ELB)** compone
 | **Total** | **1,597** |
 
 ---
-
 
 ## Results
 
