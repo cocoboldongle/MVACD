@@ -1,0 +1,27 @@
+# Requirements for MVACD
+# ACL 2025 Main
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Scripts and their dependencies:
+#   extract_elb.py     — ELB extraction
+#   infer_instances.py — LLM-based instance inference
+#   train.py           — Multi-View Gated Attention MIL training
+
+# ── LLM APIs
+openai>=1.0.0
+google-generativeai>=0.8.0
+anthropic>=0.40.0
+
+# ── Data
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# ── ML / Training
+torch>=2.0.0
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+
+# ── Utilities
+python-dotenv>=1.0.0
