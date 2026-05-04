@@ -1,6 +1,6 @@
 # Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection
 
-The dataset used in the paper: *"Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection"* (ACL 2025 Main)
+The dataset used in the paper: *"Multi-View Attention Multiple-Instance Learning Enhanced by LLM Reasoning for Cognitive Distortion Detection"* (ACL 2026 Main)
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202509.17292-red.svg)](https://arxiv.org/abs/2509.17292)
 [![KoACD](https://img.shields.io/badge/🤗%20KoACD-HuggingFace-blue.svg)](https://huggingface.co/datasets/kma80kjs1/KoACD)
