@@ -21,7 +21,6 @@ Each utterance is decomposed into **Emotion, Logic, and Behavior (ELB)** compone
 ### KoACD (Korean Adolescent Cognitive Distortion Dataset)
 
 - **Source:** [Kim and Kim, 2025](https://arxiv.org/abs/2505.00367) — EMNLP Findings 2025
-- **Full dataset:** 🤗 [HuggingFace](https://huggingface.co/datasets/kma80kjs1/KoACD)
 - **Subset used in this paper:** 5,000 utterances (500 per distortion type), expert-validated by 10 Korean psychologists
 
 > ⚠️ **Note:** There is no fixed train/validation/test split. Each experimental run uses a different random seed for stratified splitting (80/10/10).
@@ -43,7 +42,6 @@ Each utterance is decomposed into **Emotion, Logic, and Behavior (ELB)** compone
 ### Therapist QA Dataset
 
 - **Source:** [Shreevastava and Foltz, 2021](https://aclanthology.org/2021.clpsych-1.17/)
-- **Processed data (ELB + LLM instances):** Available upon request
 - **Usage:** Primary label per utterance; used for cross-linguistic generalization benchmarking
 
 > ⚠️ **Note:** There is no fixed train/validation/test split. Each experimental run uses a different random seed for stratified splitting (80/10/10).
